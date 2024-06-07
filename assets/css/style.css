@@ -1,0 +1,302 @@
+/* Style the navbar */
+nav.navbar {
+    background-color: #3498db; /* Ganti warna navbar ke biru */
+    padding: 10px;
+    border-radius: 0;
+}
+
+/* Style the brand (logo and text) */
+.navbar-brand {
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style the logo image */
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Style the dropdown button */
+.navbar-nav .nav-link.dropdown-toggle {
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    color: #fff;
+    padding: 10px;
+    background-color: #2ecc71;
+}
+
+/* Style the dropdown menu */
+.navbar-nav .dropdown-menu {
+    background-color: #2ecc71; /* Ganti warna dropdown menu ke hijau */
+}
+
+/* Style the text in the dropdown menu */
+.navbar-nav .dropdown-menu a {
+    color: #000;
+}
+
+/* Style hover on the dropdown button */
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+/* Style the text on hover for the brand */
+.navbar-brand:hover {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+.nav-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    padding-left: 5px;
+    background-color: #2ecc71;
+}
+
+/* Style the navbar links */
+.navbar a {
+    color: #fff;
+}
+
+/* Style the text on hover for the navbar links */
+.navbar a:hover {
+    color: #000;
+}
+
+/* Style the body and container */
+body {
+    background-color: #ecf0f1; /* Ganti warna background body ke abu-abu muda */
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the button group */
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style the primary button */
+.btn-primary {
+    flex: 0 0 40%;
+    margin-right: 20px;
+}
+
+/* Style the square button */
+.btn-square {
+    width: 100%;
+}
+
+/* Tambahkan gaya untuk form login */
+.section-form-login {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil tombol login */
+.section-form-login button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Stil link pendaftaran */
+.section-form-login a.start {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.section-form-login a.start:hover {
+    text-decoration: underline;
+}
+
+/* coba */
+
+.form-login {
+    background-color: aliceblue;
+    width: 700px;
+    height: fit-content;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-register {
+    background-color: aliceblue;
+    width: 700px;
+    height: fit-content;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-register table {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-register h1,
+.list-users h1 {
+    padding: 40px;
+}
+
+.list-users,
+.ubah-user {
+    background-color: aliceblue;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.form-login h1,
+.form-register h1 .list-users h1 {
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form-register .center,
+.form-login .center {
+    margin: 0 auto;
+}
+
+.form-login table tr,
+.form-login table td,
+.form-register table tr,
+.form-register table td,
+.list-users table tr,
+.list-users table td,
+.ubah-user table tr,
+.ubah-user table td {
+    padding: 10px;
+}
+
+.form-login .login-input,
+.form-register input:not([type='file']),
+.ubah-user input:not([type='file']) {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-login label,
+.form-register label,
+.ubah-user label {
+    font-size: 20px;
+}
+
+.form-login .boxFoto,
+.form-register .boxFoto,
+.list-users .boxFoto {
+    padding: 0;
+}
+
+.form-login .boxFoto img,
+.form-register .boxFoto img {
+    height: 300px;
+    width: 200px;
+}
+
+.list-users .boxFoto img {
+    width: 70px;
+    height: 70px;
+}
+
+.list-users th {
+    text-align: center;
+}
+
+.form-login button[type='submit'],
+.form-register button[type='submit'],
+.ubah-user button[type='submit'] {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(0, 80, 230);
+}
+
+.form-login button[type='submit']:hover,
+.form-register button[type='submit']:hover,
+.ubah-user button[type='submit']:hover {
+    background-color: rgb(5, 121, 255);
+    cursor: pointer;
+}
+
+.form-register .start,
+.form-login .start {
+    text-decoration: none;
+    font-size: 15px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+
+/* Responsive style */
+@media (max-width: 768px) {
+    .section-form-login {
+        width: 90%;
+    }
+}
+
+/* Atur text-align dropdown menjadi center */
+@media (max-width: 767.98px) {
+    .navbar-nav .nav-item.dropdown {
+        text-align: center;
+    }
+
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+    }
+
+    .navbar-nav .dropdown-menu a {
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #2ecc71; /* Ganti dengan warna latar belakang yang diinginkan */
+    }
+}
